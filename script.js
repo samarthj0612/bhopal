@@ -7,13 +7,3 @@ gsap.to("#main2 #img", {
   },
   y: 100,
 });
-gsap.to("#lake", {
-  scrollTrigger: {
-    trigger: "#main7",
-    start: "center center",
-    end: "30% 20%",
-    scrub: 3,
-    pin: true
-  },
-  width: "120%",
-});
